@@ -1,0 +1,10 @@
+---
+source: unpack/tests/extract_test.rs
+expression: results
+---
+[
+    UnpackStatus {
+        path: "tests/mocks/multiple/archive.zip",
+        err: None,
+    },
+]

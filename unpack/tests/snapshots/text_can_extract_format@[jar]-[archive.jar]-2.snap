@@ -1,0 +1,7 @@
+---
+source: unpack/tests/extract_test.rs
+expression: get_files_from_folder(&destination_folder)
+---
+[
+    "[DYNAMIC-PATH]/tithesis.txt",
+]

@@ -1,0 +1,7 @@
+---
+source: unpack/tests/extract_test.rs
+expression: archive_kind
+---
+Some(
+    Zip,
+)

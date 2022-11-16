@@ -1,0 +1,18 @@
+---
+source: unpack/tests/extract_test.rs
+expression: results
+---
+[
+    UnpackStatus {
+        path: "tests/mocks/multiple/archive.zip",
+        err: None,
+    },
+    UnpackStatus {
+        path: "tests/mocks/multiple/folder-1/archive.zip",
+        err: None,
+    },
+    UnpackStatus {
+        path: "tests/mocks/multiple/folder-2/archive.zip",
+        err: None,
+    },
+]

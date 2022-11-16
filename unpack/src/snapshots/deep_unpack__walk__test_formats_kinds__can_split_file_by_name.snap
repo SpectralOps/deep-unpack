@@ -1,0 +1,10 @@
+---
+source: unpack/src/walk.rs
+expression: split_file_by_name(&path)
+---
+Ok(
+    (
+        "baz.tar.gz",
+        "foo/bar",
+    ),
+)

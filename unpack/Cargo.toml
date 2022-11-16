@@ -1,0 +1,33 @@
+[package]
+name = "deep-unpack"
+version = "0.1.0"
+edition = "2021"
+authors = ["Elad Kaplan <kaplan.elad@gmail.com>"]
+license = "Apache-2.0"
+description = "Packing deep archives files from a root folder"
+homepage = "https://github.com/spectralOps/deep-unpack"
+repository = "https://github.com/spectralOps/deep-unpack"
+documentation = "https://docs.rs/deep-unpac/latest/deep-unpac"
+readme = "../README.md"
+keywords = ["unpack", "archive", "compressed"]
+
+[lib]
+name = "deep_unpack"
+
+[dependencies]
+zip = "0.6.3"
+ignore = "0.4"
+anyhow = "1.0.66"
+lazy_static="1.4.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.9"
+num_cpus = "1.13.1"
+serde_regex = "1.1.0"
+regex = { version="1.5.6", default-features = false }
+log = "0.4.0"
+rayon = "1.5.3"
+
+[dev-dependencies]
+insta = { version = "1.21.0", features = ["filters"] }
+uuid = { version = "1.2.1", features = ["v4"] }
+rstest = "0.15.0"
