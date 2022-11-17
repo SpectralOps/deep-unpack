@@ -1,0 +1,34 @@
+---
+source: unpack/tests/extract_test.rs
+expression: results
+---
+[
+    UnpackStatus {
+        archive_file: "[DYNAMIC-PATH]/folder-2/_PREFIX_$archive.zip$_SUFFIX_/inner-compressed-x1.zip",
+        extract_to: Some(
+            "[DYNAMIC-PATH]/folder-2/_PREFIX_$archive.zip$_SUFFIX_/_PREFIX_$inner-compressed-x1.zip$_SUFFIX_",
+        ),
+        err: None,
+    },
+    UnpackStatus {
+        archive_file: "tests/mocks/multiple/archive.zip",
+        extract_to: Some(
+            "[DYNAMIC-PATH]/_PREFIX_$archive.zip$_SUFFIX_",
+        ),
+        err: None,
+    },
+    UnpackStatus {
+        archive_file: "tests/mocks/multiple/folder-1/archive.zip",
+        extract_to: Some(
+            "[DYNAMIC-PATH]/folder-1/_PREFIX_$archive.zip$_SUFFIX_",
+        ),
+        err: None,
+    },
+    UnpackStatus {
+        archive_file: "tests/mocks/multiple/folder-2/archive.zip",
+        extract_to: Some(
+            "[DYNAMIC-PATH]/folder-2/_PREFIX_$archive.zip$_SUFFIX_",
+        ),
+        err: None,
+    },
+]

@@ -3,6 +3,6 @@ source: unpack/tests/extract_test.rs
 expression: get_files_from_folder(&destination_folder)
 ---
 [
-    "[DYNAMIC-PATH]/archive.zip/corsarm.txt",
-    "[DYNAMIC-PATH]/archive.zip/zothy.txt",
+    "[DYNAMIC-PATH]/__$archive.zip$__/corsarm.txt",
+    "[DYNAMIC-PATH]/__$archive.zip$__/zothy.txt",
 ]

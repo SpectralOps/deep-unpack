@@ -1,5 +1,5 @@
 ---
-source: unpack/src/walk.rs
+source: unpack/src/unpack.rs
 expression: split_file_by_name(&path)
 ---
 Ok(

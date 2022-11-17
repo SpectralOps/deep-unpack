@@ -11,6 +11,7 @@ pub struct NoWalkList {
 
 #[derive(Debug, Clone)]
 pub struct UnpackStatus {
-    pub path: PathBuf,
+    pub archive_file: PathBuf,
+    pub extract_to: Option<PathBuf>,
     pub err: Option<String>,
 }
