@@ -7,8 +7,8 @@
 //! ```
 mod data;
 mod formats;
-mod walk;
+mod unpack;
 
 pub use data::NoWalkList;
 pub use formats::kinds::ArchiveKind;
-pub use walk::{extract_to_folder, extract_to_folder_with_ignores};
+pub use unpack::DeepWalk;

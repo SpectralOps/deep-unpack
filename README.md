@@ -12,11 +12,13 @@ deep-unpack = { version = "0.1.0" }
 ```rs
 
 fn main() {
-    use std::path::Path;
 
     fn main() {
-        let deep_level = 3
-         deep_unpack::extract_to_folder("/folder", "/folder/__unpack__", deep_level);
+         deep_unpack::DeepWalk::new()
+        .folder("app/")
+        .unpack_folder(format!("app/__extract__"))
+        .unpack_level(4)
+        .extract()?;
     }
 }
 ```

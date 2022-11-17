@@ -1,0 +1,14 @@
+---
+source: unpack/tests/extract_test.rs
+expression: get_files_from_folder(&destination_folder)
+---
+[
+    "[DYNAMIC-PATH]/__$archive.zip$__/corsarm.txt",
+    "[DYNAMIC-PATH]/__$archive.zip$__/zothy.txt",
+    "[DYNAMIC-PATH]/folder-1/__$archive.zip$__/adequil",
+    "[DYNAMIC-PATH]/folder-1/__$archive.zip$__/kizle.json",
+    "[DYNAMIC-PATH]/folder-2/__$archive.zip$__/__$inner-compressed-x1.zip$__/inner-compressed-x1/avention.json",
+    "[DYNAMIC-PATH]/folder-2/__$archive.zip$__/__$inner-compressed-x1.zip$__/inner-compressed-x1/inner-compressed-x2.zip",
+    "[DYNAMIC-PATH]/folder-2/__$archive.zip$__/inner-compressed-x1.zip",
+    "[DYNAMIC-PATH]/folder-2/__$archive.zip$__/skewintenk.txt",
+]

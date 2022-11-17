@@ -1,0 +1,27 @@
+---
+source: unpack/tests/extract_test.rs
+expression: results
+---
+[
+    UnpackStatus {
+        archive_file: "tests/mocks/multiple/archive.zip",
+        extract_to: Some(
+            "[DYNAMIC-PATH]/__$archive.zip$__",
+        ),
+        err: None,
+    },
+    UnpackStatus {
+        archive_file: "tests/mocks/multiple/folder-1/archive.zip",
+        extract_to: Some(
+            "[DYNAMIC-PATH]/folder-1/__$archive.zip$__",
+        ),
+        err: None,
+    },
+    UnpackStatus {
+        archive_file: "tests/mocks/multiple/folder-2/archive.zip",
+        extract_to: Some(
+            "[DYNAMIC-PATH]/folder-2/__$archive.zip$__",
+        ),
+        err: None,
+    },
+]
