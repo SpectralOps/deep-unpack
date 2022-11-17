@@ -5,7 +5,7 @@ Packing deep archives files from a root folder.
 ## Usage 
 ```toml
 [dependencies]
-deep-unpack = { version = "0.1.0" }
+deep-unpack = { version = "0.1.1" }
 ```
 
 ## Usage 
