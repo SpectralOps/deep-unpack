@@ -1,6 +1,6 @@
 # deep-unpack
 
-Packing deep archives files from a root folder.
+Unpack deep archive files recursively over a file tree or a folder.
 
 ## Usage 
 ```toml
