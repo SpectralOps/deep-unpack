@@ -9,6 +9,6 @@ mod data;
 mod formats;
 mod unpack;
 
-pub use data::NoWalkList;
+pub use data::{NoWalkList, UnpackStatus};
 pub use formats::kinds::ArchiveKind;
 pub use unpack::DeepWalk;
