@@ -5,7 +5,7 @@ Unpack deep archive files recursively over a file tree or a folder.
 ## Usage 
 ```toml
 [dependencies]
-deep-unpack = { version = "0.1.1" }
+deep-unpack = { version = "0.1.2" }
 ```
 
 ## Usage 
